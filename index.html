@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuickPulse - Online Survey</title><link rel="stylesheet" href="style.css"></head>
+<body><header><div class="brand"><span>Q</span> QuickPulse</div><small>ONLINE SURVEY</small></header>
+<main><section class="intro"><p>YOUR VOICE MATTERS</p><h1>Help us improve.</h1><div>Answer five quick questions. Your feedback helps us create a better experience.</div></section>
+<section class="card"><div class="cardhead"><div><small>QUICK SURVEY</small><h2>Your feedback</h2></div><b>5 QUESTIONS</b></div>
+<form id="surveyForm"><label for="respondentName">Your name</label><input id="respondentName" type="text" placeholder="Enter your name" required>
+<div class="progress"><div><span>Survey questions</span><span id="progressText">0 of 5 answered</span></div><div class="track"><i id="progressBar"></i></div></div>
+<div id="questionsContainer">Loading your random questions...</div><button id="submitBtn">Submit survey →</button><p id="message" aria-live="polite"></p></form></section>
+<footer>✦ It only takes a minute. Thank you for sharing your thoughts!</footer></main><script src="app.js"></script></body></html>
